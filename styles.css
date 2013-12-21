@@ -1,0 +1,93 @@
+body {
+    background: url('http://162.243.21.204/~plondon/directory/hacker/centralpark.jpg')no-repeat center center fixed;
+    background-size: cover;
+    max-width: 500px;
+    margin: 0px auto;
+    font-family:'Open Sans', sans-serif;
+}
+header {
+    position: relative;
+    text-align: center;
+}
+.container {
+    display: inline;
+}
+img {
+    position: relative;
+    bottom: 0;
+    width: 200px;
+    border: 9px solid rgba(4, 150, 264, .4);
+    border-radius: 200px;
+    margin: 200px 0 0 0;
+    -webkit-transition: all 600ms ease-in;
+}
+img:hover {
+    cursor: pointer;
+}
+h1 {
+    position: relative;
+    margin-top: -180px;
+    color: rgba(4, 150, 264, 1);
+    display: none;
+}
+li {
+    display: inline;
+    color: white;
+    background-color: rgba(4, 150, 264, .8);
+    padding: 10px 12px 10px 10px;
+}
+li:hover {
+    cursor: pointer;
+}
+.interests {
+    display: none;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+}
+.aboutMe {
+    display: none;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+}
+.hacker {
+    display: none;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+}
+#image.active img {
+    bottom: 180px;
+}
+
+#welcome-wrapper  ul {
+    position: relative;
+    margin-left: -42px;
+    opacity: 0;
+    -webkit-transition: all 600ms ease-in;
+}
+
+#body-wrapper {
+    opacity: 0;
+    -webkit-transition: all 600ms ease-in;
+}
+
+#welcome-wrapper.open ul {
+    opacity: 1.0;
+    bottom: 180px;
+}
+
+#body-wrapper.open {
+    opacity: 1.0;
+    margin-top: -120px;
+}
